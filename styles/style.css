@@ -1,0 +1,126 @@
+:root {
+  --pale_blue: hsl(225, 100%, 94%);
+  --very_pale_blue: #f5f7ff;
+  --bright_blue: #3829e0;
+  --desaturated_blue: hsl(224, 23%, 55%);
+  --dark_blue: hsl(223, 47%, 23%);
+}
+
+h1,
+p,
+a,
+span {
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 1.4rem;
+}
+
+p {
+  font-size: 14px;
+  text-align: center;
+  font-weight: 500;
+  margin-top: 15px;
+  color: hsl(0, 0%, 50%);
+}
+
+.wrapper {
+  height: 100%;
+  background-color: var(--very_pale_blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 355px;
+  border-radius: 16px;
+  background-color: white;
+  box-shadow: 0px 0px 30px rgb(221, 220, 220);
+}
+
+.img-hero {
+  border-radius: 16px 16px 0 0;
+}
+
+.inner-wrapper {
+  height: 100%;
+  margin: 35px 35px;
+}
+
+.subscription {
+  display: flex;
+  align-items: center;
+  background-color: var(--very_pale_blue);
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 20px; 
+  padding: 20px;
+}
+
+.subscription img {
+  margin-right: 15px;
+}
+
+.subscription .annual-plan {
+  font-weight: 900;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.subscription .price {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: hsl(0, 0%, 50%);
+}
+
+.subscription a {
+  margin-left: auto;
+  font-size: 0.9rem;
+  color: var(--bright_blue);
+  font-weight: 700;
+}
+
+.subscription a:hover {
+  text-decoration: none;
+}
+  
+.payment-button {
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: var(--bright_blue);
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 20px;
+  box-shadow: 1px 8px 30px #3829e089;
+}
+
+.payment-button:hover {
+  background-color: #6436e4;
+  box-shadow: 1px 8px 30px ##5a29e089;
+}
+
+.cancel-button {
+  text-align: center;
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: hsl(0, 0%, 50%);
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.cancel-button:hover {
+  color: hsl(0, 0%, 25%);
+}
